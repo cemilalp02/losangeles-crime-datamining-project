@@ -1,0 +1,3 @@
+reports/figures/*.html linguist-generated=true
+reports/figures/*.png linguist-generated=true
+notebooks/*.ipynb linguist-documentation=true
