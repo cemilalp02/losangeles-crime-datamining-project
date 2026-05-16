@@ -1,0 +1,28 @@
+# Core data stack
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15.0
+scipy>=1.13
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+folium>=0.17
+
+# Modelling
+scikit-learn>=1.5
+lightgbm>=4.0
+xgboost>=2.0
+shap>=0.45
+
+# Dashboard
+streamlit>=1.35
+pydeck>=0.9
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.29
+
+# Reading the project application doc (optional)
+python-docx>=1.0

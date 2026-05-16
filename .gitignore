@@ -1,0 +1,35 @@
+# --- Data --------------------------------------------------------------
+Crime_Data_from_2020_to_Present.csv
+data/processed/*.parquet
+data/features/*.parquet
+
+# Keep folder structure
+!data/processed/.gitkeep
+!data/features/.gitkeep
+
+# --- Models / large artefacts ------------------------------------------
+reports/models/*.pkl
+
+# --- Private / generated documents -------------------------------------
+*.docx
+reports/_render_final_report/
+
+# --- Logs --------------------------------------------------------------
+*.log
+pipeline_run.log
+
+# --- Python ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+
+# --- IDE ---------------------------------------------------------------
+.vscode/
+.idea/
+.windsurf/
+
+# --- OS ----------------------------------------------------------------
+Thumbs.db
+.DS_Store
